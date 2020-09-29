@@ -1,6 +1,6 @@
 {
   "title": "Getting started with lakeFS",
-  "description": " learn how to use lakeFS using repositories, committing, merging and diffing",
+  "description": " learn how to manage lakeFS with repositories, committing, merging and diffing",
   "difficulty": "Beginner",
   "time": "25",
   "details": {
