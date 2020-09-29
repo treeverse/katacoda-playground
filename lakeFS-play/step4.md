@@ -1,7 +1,7 @@
 
 We will now create a new branch out of master using the branch command
 
-The next command will create a new branch called `my-branch` and his source branch will be `master`
+The next command will create a new branch called `my-branch` the source branch will be `master`
 `lakectl branch create lakefs://my-repo@my-branch/ --source lakefs://my-repo@master`{{execute}}
 
 
@@ -31,6 +31,7 @@ now in spark shell we will run the next commands:
  spark.stop()`{{execute}}
  
  
- now we could quit running the command:
+ it might take a few minutes. 
+once the commands end running, quit with the command:
  `:q`{{execute}}
  
