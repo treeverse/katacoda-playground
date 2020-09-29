@@ -1,0 +1,48 @@
+{
+  "title": "Getting started with lakeFS",
+  "description": " learn how to use lakeFS using repositories, committing, merging and diffing",
+  "difficulty": "Beginner",
+  "time": "25",
+  "details": {
+    "steps": [
+      {
+        "title": "lakectl and repositories",
+        "text": "step1.md"
+      },
+      {
+        "title": "Objects",
+        "text": "step2.md"
+      },
+      {
+        "title": "Commits",
+        "text": "step3.md"
+      },
+      {
+        "title": "Branch and Spark",
+        "text": "step4.md"
+      },
+      {
+        "title": "Diff Commit and Merge",
+        "text": "step5.md"
+      }
+    ],
+    "assets": {
+      "host01": [
+        {"file": "katacoda_rsa", "target": "~/.ssh/", "chmod": "600"}
+      ]
+    },
+    "intro": {
+      "text": "intro.md",
+      "code": "foreground.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
