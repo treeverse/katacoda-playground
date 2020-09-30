@@ -8,7 +8,7 @@ The next command will commit all changes under master branch in th repository my
 We could now list the commits with the log command
 `lakectl log lakefs://my-repo@master`{{execute}}
 
-we could see there two commits.
+We could see there two commits.
 
 - our first commit
 - an auto generated commit, Repository created
