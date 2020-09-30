@@ -8,7 +8,7 @@ The next command will create a new branch called `my-branch` the source branch w
 After we created a branch we could the list command to list the branches on owr repository:
 `lakectl branch list lakefs://my-repo`{{execute}}
 
-Now we could use spark shell and make some changes on our new branch
+Now we could use spark shell and make some changes on our new branch.
 
 Open spark shell:
 `spark-shell`{{execute}}
@@ -32,6 +32,7 @@ now in spark shell we will run the next commands:
  
  
 It might take a few minutes. 
+
 Once the commands end running, quit with the command:
  `:q`{{execute}}
  

@@ -14,9 +14,9 @@ First let's see the changes we are about to push,
 We will do that by running the diff command on my-branch and master:
 `lakectl diff lakefs://my-repo@my-branch lakefs://my-repo@master`{{execute}}
 
-After verifying we could merge back
+After verifying we could merge back:
 `lakectl merge lakefs://my-repo@my-branch lakefs://my-repo@master`{{execute}}
 
-That's it :) we Merged our changes
+That's it :) we Merged our changes.
 
-Feel free to play around with the environment 
+Feel free to play around with the environment.
