@@ -11,6 +11,7 @@ Looks good, let's commit:
 Now we could merge our changes back to master.
 
 First let's see the changes we are about to push,
+
 We will do that by running the diff command on my-branch and master:
 `lakectl diff lakefs://my-repo@my-branch lakefs://my-repo@master`{{execute}}
 

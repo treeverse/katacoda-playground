@@ -15,14 +15,13 @@ The following command will add the object object.txt under path /sample in branc
 We could now use the ls command to list the objects in our repository:
 `lakectl fs ls lakefs://my-repo@master/`{{execute}}
  
-We got the paths under root, imdb and sample
 If we would like to see the objects and paths under sample:
 `lakectl fs ls lakefs://my-repo@master/sample/`{{execute}} 
  
-To view the objects metadata we could use the stat command:
+To view the metadata of an object we could use the stat command:
 `lakectl fs stat lakefs://my-repo@master/sample/object.txt`{{execute}}
 
-To dump the content of a object use the cat command:
+To dump the content of an object use the cat command:
 `lakectl fs cat lakefs://my-repo@master/sample/object.txt`{{execute}}
 
 Remove the object with the rm command:
