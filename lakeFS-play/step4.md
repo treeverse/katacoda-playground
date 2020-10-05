@@ -7,7 +7,7 @@ The next command will create a new branch called `my-branch` the source branch w
 `lakectl branch create lakefs://my-repo@my-branch/ --source lakefs://my-repo@master`{{execute}}
 
 
-After succesfully creating a branch, you can list command to list the branches on owr repository:
+After succesfully creating a branch, you can use the list command to list the branches on owr repository:
 `lakectl branch list lakefs://my-repo`{{execute}}
 
 
