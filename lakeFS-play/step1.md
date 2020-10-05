@@ -18,7 +18,7 @@ You can see the repository was created, and the default branch is master.
 Now let's list your repositories:
 `lakectl repo list`{{execute}}
 
-To see all available repository commands you could use --help:
+To see all available repository commands use --help:
 `lakectl repo --help`{{execute}}
 
 
