@@ -1,19 +1,24 @@
+# Creating a branch
 
-We will now create a new branch out of master using the branch command
+
+Create a new branch out of master using the branch command
 
 The next command will create a new branch called `my-branch` the source branch will be `master`
 `lakectl branch create lakefs://my-repo@my-branch/ --source lakefs://my-repo@master`{{execute}}
 
 
-After we created a branch we could the list command to list the branches on owr repository:
+After succesfully creating a branch, you can use the list command to list the branches on owr repository:
 `lakectl branch list lakefs://my-repo`{{execute}}
 
-Now we could use spark shell and make some changes on our new branch.
+
+## Run a Spark job
+
+Let's use spark shell and make some changes on the new branch.
 
 Open spark shell:
 `spark-shell`{{execute}}
 
-now in spark shell we will run the next commands:
+Next, we will run the next commands in sprak shell:
 `val repo = "my-repo"
  val branch = "my-branch"
  val workDir = s"s3a://${repo}/${branch}/imdb"
