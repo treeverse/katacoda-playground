@@ -4,9 +4,11 @@ Once we have a repository,
 
 we could add an object to lakeFS by using the fs command.
 
+
 ### Add an object from an existing source.
 The following command will add the object title.episode.tsv.gz to lakeFS under the path /imdb/title.episode.tsv.gz in branch master: 
 `lakectl fs upload lakefs://my-repo@master/imdb/title.episode.tsv.gz --source title.episode.tsv.gz`{{execute}}
+
 
 ### Add an object using stdin,
 The following command will add the object object.txt under path /sample in branch master:
