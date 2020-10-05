@@ -1,3 +1,4 @@
+## Welcome to the lakeFS Playground!
 
 In this tutorial we’ll work with a sample dataset to give you a sense for the ways lakeFS makes it easy to work with data.
 
