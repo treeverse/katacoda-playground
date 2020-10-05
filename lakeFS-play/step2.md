@@ -18,7 +18,7 @@ You can use the ls command to list the objects in your repository:
 If you'd like to see the objects and paths under sample:
 `lakectl fs ls lakefs://my-repo@master/sample/`{{execute}} 
  
-To view the metadata of an object we could use the stat command:
+To view the metadata of an object you can use the stat command:
 `lakectl fs stat lakefs://my-repo@master/sample/object.txt`{{execute}}
 
 To dump the content of an object use the cat command:
