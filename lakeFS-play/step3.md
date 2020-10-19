@@ -1,15 +1,17 @@
 # Commit commands
 
-We could now commit our changes with the commit command
+We’ve successfully created our first repositroy and added a sample dataset to it. 
+
+You can now commit your changes using the commit command
 
 The next command will commit all changes under master branch in th repository my-repo with the message first commit:
 `lakectl commit lakefs://my-repo@master --message "first commit"`{{execute}}
 
-We could now list the commits with the log command:
+To list the commits with the log command:
 `lakectl log lakefs://my-repo@master`{{execute}}
 
-We could see there two commits.
+You'll now see there is two commits:
 
-- our first commit
-- an auto generated commit, Repository created
+- Your first commit
+- An auto generated commit, Repository created
 
