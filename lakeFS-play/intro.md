@@ -4,7 +4,7 @@ In this tutorial we’ll work with a sample dataset to give you a sense for the 
 
 We will learn how to use lakeFS using lakectl, and how to run basic commands - manage and explore repositories, commits and files.
 
-As part of this exercise you will will also create a new branch, run a Spark job, check out the diff and merge it.
+As part of this exercise you will also create a new branch, run a Spark job, check out the diff and merge it.
 
 
 
