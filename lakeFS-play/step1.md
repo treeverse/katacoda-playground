@@ -2,6 +2,7 @@ Once LakeFS is Done initializing we will have a ready environment for you to pla
 
 ## lakectl
 lakectl is a CLI tool allowing exploration and manipulation of a lakeFS environment
+
 In order to see the available commands:
 `lakectl --help`{{execute}}
 
