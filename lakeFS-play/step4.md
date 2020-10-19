@@ -10,10 +10,12 @@ After we created a branch we could the list command to list the branches on owr 
 
 Now we could use spark shell and make some changes on our new branch.
 
-Open spark shell:
+Open spark shell: 
 `spark-shell`{{execute}}
 
-now in spark shell we will run the next commands:
+This is a standard installation of Spark - since lakeFS is API compatible with S3, all we need to do is simply add the branch name as a prefix for the path
+
+Now in spark shell we will run the next commands:
 `val repo = "my-repo"
  val branch = "my-branch"
  val workDir = s"s3a://${repo}/${branch}/imdb"
