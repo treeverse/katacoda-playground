@@ -1,10 +1,10 @@
 # Creating a branch
 
 
-Create a new branch out of master using the branch command
+Create a new branch out of `main` using the branch command
 
-The next command will create a new branch called `my-branch` the source branch will be `master`
-`lakectl branch create lakefs://my-repo@my-branch/ --source lakefs://my-repo@master`{{execute}}
+The next command will create a new branch called `my-branch` the source branch will be `main`
+`lakectl branch create lakefs://my-repo/my-branch/ --source lakefs://my-repo/main`{{execute}}
 
 
 After succesfully creating a branch, you can use the list command to list the branches on owr repository:

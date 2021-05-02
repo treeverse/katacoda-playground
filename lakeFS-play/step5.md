@@ -2,19 +2,19 @@
 # Commit Spark changes
 
 Before we commit let's review the changes we are about to commit:
-`lakectl diff lakefs://my-repo@my-branch`{{execute}}
+`lakectl diff lakefs://my-repo/my-branch`{{execute}}
 
 Looks good, let's commit:
-`lakectl commit lakefs://my-repo@my-branch --message "after spark job"`{{execute}}
+`lakectl commit lakefs://my-repo/my-branch --message "after spark job"`{{execute}}
 
 
-Before merging your changes back to master - let's see the changes we are about to push by:
+Before merging your changes back to `main` - let's see the changes we are about to push by:
 
-Running the diff command on my-branch and master:
-`lakectl diff lakefs://my-repo@my-branch lakefs://my-repo@master`{{execute}}
+Running the diff command on `my-branch` and `main`:
+`lakectl diff lakefs://my-repo/my-branch lakefs://my-repo/main`{{execute}}
 
 After verifying, you can merge back:
-`lakectl merge lakefs://my-repo@my-branch lakefs://my-repo@master`{{execute}}
+`lakectl merge lakefs://my-repo/my-branch lakefs://my-repo/main`{{execute}}
 
 
 That's it :) 
