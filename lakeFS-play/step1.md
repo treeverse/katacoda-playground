@@ -11,7 +11,7 @@ In lakeFS, a repository is a logical namespace used to group together objects, b
 
 Let's start by creating a repository. 
 
-We will name the repository my_repo:
+We will name the repository my-repo:
 `lakectl repo create lakefs://my-repo local://storage-location`{{execute}}
 
 You can see the repository was created, and the default branch is `main`.
